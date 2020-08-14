@@ -1,12 +1,16 @@
+const lol = "LOLCODE is for kittens";
+const clojure = "clojure is for weirdos";
+const python = "python is a good choice"
+
 function langChooser(total){
   let lang;
 
   if (total <= 10){
-    lang = "LOLCODE";
+    lang = lol;
   } else if (total >= 14){
-    lang = "Clojure"; 
+    lang = clojure; 
   } else {
-    lang = "Python";
+    lang = python;
   }
   return lang;
 }
@@ -20,6 +24,7 @@ $(document).ready(function(){
 
     let language = langChooser(total);
 
+    $("#langAnswer").text(language);
     $("#suggestedLanguage").show();
 
     event.preventDefault();
