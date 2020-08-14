@@ -3,10 +3,27 @@
 }
 
 body {
-  background-color: #FFCCFF;
+  background-color: #666666;
 }
 
-h1, h2, h3, label.question {
+.container {
+  background-color: #FFCCFF;
+  width: auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #666666;
+}
+
+h2, h3, label.question {
   text-align: center;
   color: #FF0066;
+}
+
+label.question {
+  margin-top: 2em;
+  font-size: 18px;
 }
