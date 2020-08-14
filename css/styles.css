@@ -9,11 +9,23 @@ img {
   margin: 0px auto;
 }
 
+.lol {
+  display: none;
+}
+
+.python {
+  display: none;
+}
+
+.clojure {
+  display: none;
+}
+
 body {
   background-color: #666666;
-  background: linear-gradient(grey, white);
-  margin-left: 11%;
-  margin-right: 11%;
+  background: linear-gradient(black), white);
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .container {
@@ -21,6 +33,7 @@ body {
   width: auto;
   padding: 16px;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 h1 {

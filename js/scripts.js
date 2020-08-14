@@ -32,11 +32,11 @@ $(document).ready(function(){
     $("#suggestedLanguage").show();
 
     if (language === lol){
-      $("#lolpic").show();
+      $(".lol").show();
     } else if (language === clojure){
-      $("#clojurepic").show();
+      $(".clojure").show();
     } else {
-      $("#pythonpic").show();
+      $(".python").show();
     }
 
     event.preventDefault();
