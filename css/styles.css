@@ -43,6 +43,11 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.codeBlock {
+  text-align: left;
+  margin-left: 38%;
+}
+
 h1 {
   text-align: center;
 }
