@@ -9,16 +9,23 @@ img {
   margin: 0px auto;
 }
 
+#codeExamples {
+  display: none;
+}
+
 .lol {
   display: none;
+  text-align: center;
 }
 
 .python {
   display: none;
+  text-align: center;
 }
 
 .clojure {
   display: none;
+  text-align: center;
 }
 
 body {
