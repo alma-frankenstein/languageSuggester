@@ -46,6 +46,7 @@ body {
 .codeBlock {
   text-align: left;
   margin-left: 38%;
+  line-height: 1em;
 }
 
 h1 {
