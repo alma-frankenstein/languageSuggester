@@ -23,6 +23,12 @@ h2, h3, label.question {
   color: #FF0066;
 }
 
+.btn {
+  background-color: white;
+  color: #FF0066;
+  margin-top: 2em;
+}
+
 label.question {
   margin-top: 2em;
   font-size: 18px;
