@@ -9,10 +9,6 @@ img {
   margin: 0px auto;
 }
 
-#codeExamples {
-  display: none;
-}
-
 .lol {
   display: none;
   text-align: center;
@@ -41,6 +37,10 @@ body {
   padding: 16px;
   box-sizing: border-box;
   border-radius: 10px;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
