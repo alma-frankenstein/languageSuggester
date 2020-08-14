@@ -1,6 +1,6 @@
-const lol = "LOLCODE is for kittens";
-const clojure = "clojure is for weirdos";
-const python = "python is a good choice"
+const lol = "LOLCODE, a programming language based on the lolcat internet meme, is a good choice for you.";
+const clojure = "Clojure, a boutique functional programming, is a good choice for you.";
+const python = "Python, a popular and well-documented programming language, is a good choice for you."
 
 function langChooser(total){
   let lang;
