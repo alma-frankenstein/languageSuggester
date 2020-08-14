@@ -2,6 +2,10 @@
   display: none;
 }
 
+img {
+  display: none;
+}
+
 body {
   background-color: #666666;
   background: linear-gradient(grey, white);

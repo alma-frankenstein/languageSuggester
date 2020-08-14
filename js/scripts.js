@@ -31,6 +31,14 @@ $(document).ready(function(){
     $("#langAnswer").text(language);
     $("#suggestedLanguage").show();
 
+    if (language === lol){
+      $("#lolpic").show();
+    } else if (language === clojure){
+      $("#clojurepic").show();
+    } else {
+      $("#pythonpic").show();
+    }
+
     event.preventDefault();
   });
 });
