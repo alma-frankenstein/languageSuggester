@@ -27,3 +27,8 @@ label.question {
   margin-top: 2em;
   font-size: 18px;
 }
+
+#langAnswer {
+  text-align: center;
+  font-size: 18px;
+}
